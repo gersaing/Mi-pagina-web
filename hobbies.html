@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 0;
+            background: papayawhip;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #FF7F50; 
+            padding:16px;
+            border-radius: 5px; 
+        }
+        nav ul li a:hover {
+            color: #000080;
+        }
+        .titulo{
+            text-align: center;
+            color: #000080;
+        }
+        #contacto{
+            background: #FF7F50;
+            color: papayawhip;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            margin: 0;
+        }
+        .Container{
+            display: grid;
+            grid-template-columns: 300px 300px;
+            gap: 50px;
+            padding: 0px;
+            justify-content: center;
+        }
+        section div img{
+            width: 300px;
+            height: 300px;
+        }
+        section div p{
+            text-align: center;
+        }
+        footer img{
+            width: 30px;
+            height: 30px;
+        }
+        footer p{
+            margin: 0;
+        }
+        section h2 {
+            color: #000080;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3 class="titulo">Bienvenidos a mi página web</h4>
+        <nav>
+            <ul>
+                <li><a href="index.html">Biografia</a></li>
+                <li><a href="hobbies.html">Mis Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Hobbies">
+        <h2>Hobbies</h2>
+        <div class="Container">
+            <div>
+                <img src="https://images.pexels.com/photos/15644518/pexels-photo-15644518/free-photo-of-hombre-gente-hierba-cesped.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Futbol">
+                <p>Me apasiona el fútbol porque es un deporte que combina estrategia, habilidad y trabajo en equipo. Disfruto tanto jugarlo como verlo, y siempre me emociona cada partido.</p>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/1596095/pexels-photo-1596095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Futbol">
+                <p>La música es una de mis pasiones, me encanta tocar la guitarra y componer mis propias canciones. Es una forma de expresión que me permite conectar con mis emociones y con los demás.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <p>Contacto: <a href="#">galbu@mail.com</a></p>
+        <img src="facebook_icon-icons.com_59205.svg" alt="">
+        <img src="youtube_14198.ico" alt="">
+    </footer>
+</body>
+</html>

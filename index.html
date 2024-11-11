@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 0;
+            background: papayawhip;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #FF7F50; 
+            padding:16px;
+            border-radius: 5px; 
+        }
+        nav ul li a:hover {
+            color: #000080;
+        }
+        .titulo{
+            text-align: center;
+            color: #000080;
+        }
+        #Biografia h2{
+            color: #000080;
+        }
+        #Biografia p{
+            display: flex; 
+            align-items: flex-start;
+            text-align: left;
+        }
+        #contacto{
+            background: #FF7F50;
+            color: papayawhip;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            margin: 0;
+        }
+        #Biografia img{
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+            height: 200px;
+        }
+        footer img{
+            width: 30px;
+            height: 30px;
+        }
+        footer p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3 class="titulo">Bienvenidos a mi página web</h4>
+        <nav>
+            <ul>
+                <li><a href="index.html">Biografia</a></li>
+                <li><a href="hobbies.html">Mis Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Biografia">
+        <h2>Mi Biografia</h2>
+        <div class="bio-content"></div></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit nulla cupiditate ipsam facilis quas recusandae, deserunt in, aspernatur quasi voluptatum voluptate ab itaque deleniti tempora doloribus. Dolorum ex dicta odio?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia officiis odit doloremque temporibus? In quos labore omnis quia asperiores eius culpa vitae animi. Et, magni eius ab est laborum possimus?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas in sapiente aliquam doloribus dignissimos sunt illo, possimus nesciunt temporibus. Dicta aperiam totam maiores praesentium quas excepturi sequi cupiditate molestiae voluptate.
+        </p>
+        <img src="https://images.pexels.com/photos/1633417/pexels-photo-1633417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagen">
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <p>Contacto: <a href="#">galbu@gmail.com</a></p>
+        <img src="facebook_icon-icons.com_59205.svg" alt="">
+        <img src="youtube_14198.ico" alt="">
+    </footer>
+</body>
+</html>
